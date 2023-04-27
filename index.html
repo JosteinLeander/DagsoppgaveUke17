@@ -12,13 +12,16 @@
     <label for="navn">Skriv navnet ditt:</label>
     <input type="text" id="navn">
     <input type="submit" id="regNavn" value="Bekreft">
+    <br> <br>
+    <input type="submit" id="clearls" value="Slett localStorage">
 
+    <div class="lykketalltxt">Ditt lykketall dette minuttet</div>
+    <div class="lykketall" id="lykketall"></div>
 
-
-    <footer>
-        <ul class="bottom">Takk til alle som besøkte siden og skrev navnene sine: </ul>
-        <span id="navnene"></span>
-    </footer>
+    <div class="bottom">
+        <h2><ul>Takk til alle som besøkte siden og skrev navnene sine: </ul></h2>
+        <span class="li" id="navnene"></span>
+    </div>
 
     <script src="js.js"></script>
 </body>
